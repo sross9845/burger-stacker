@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+#root{
+  height:100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+#burgerlist{
+  height: 535px;
+  width:300px;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 10px double black;
+  border-radius: 15%;
+}
+#burgerlist p {
+  margin: .25em;
+}
+
+#ingredients{
+  height: 535px;
+  width:300px;
+  border: 10px double black;
+  border-radius: 10%;
+  text-align:center;
+}
+
+
+
+
+
+
