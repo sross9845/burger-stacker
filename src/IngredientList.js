@@ -6,7 +6,6 @@ const IngredientList = (props) => (
     {props.ingredients.map((ingredient, i) =>
         <p key={i}>{ingredient.name}<button onClick={(e) => 
         {props.addIngredient(e, i)}}>Add</button></p>)}            
-      
   </>
 )
 

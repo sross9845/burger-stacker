@@ -27,8 +27,7 @@ class App extends React.Component {
   }
   
   addIngredient = (e, i) => {
-    e.preventDefault();
-    const stackItems = this.state.stack; 
+    const stackItems = [...this.state.stack]; 
     stackItems.unshift(this.state.ingredients[i]);
     this.setState({
       stack: stackItems
@@ -36,7 +35,6 @@ class App extends React.Component {
   }
   
   removeIngredients = (e) => {
-    e.preventDefault();
     this.setState({
       stack: []
     })

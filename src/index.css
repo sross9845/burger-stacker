@@ -27,7 +27,7 @@ code {
   justify-content: flex-start;
   flex-direction: column;
   border: 10px double black;
-  border-radius: 15%;
+  border-radius: 10%;
 }
 #burgerlist p {
   margin: .25em;
